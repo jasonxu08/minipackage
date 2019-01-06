@@ -1,0 +1,34 @@
+{
+  "name": "minipackage",
+  "version": "1.0.0",
+  "description": "minipackage draft",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonxu08/minipackage.git"
+  },
+  "keywords": [
+    "minipackage"
+  ],
+  "author": "Jason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonxu08/minipackage/issues"
+  },
+  "homepage": "https://github.com/jasonxu08/minipackage#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.0",
+    "gulp-tslint": "^8.1.3",
+    "gulp-typescript": "^5.0.0",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "log4js": "^3.0.6"
+  }
+}
